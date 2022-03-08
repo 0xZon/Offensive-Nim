@@ -4,4 +4,4 @@
 
 import osproc
 
-execProcess("cmd /c ping REMOTE_IP")
+let ping = execProcess("cmd /c ping REMOTE_IP")
